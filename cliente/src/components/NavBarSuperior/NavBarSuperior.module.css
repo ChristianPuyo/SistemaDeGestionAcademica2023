@@ -1,0 +1,43 @@
+.container{
+    background-color: #323131;
+    color: #e2e0e0;
+    position: fixed;
+    width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  
+}
+
+.menuItem {
+  
+  transition: background-color 0.3s; /* Agregar una transición para cambiar el color de fondo al hacer hover */
+ 
+}
+
+.menuItemTitleSalir {
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Centrar elementos verticalmente */
+  font-size: 18px;
+  color: red;
+}
+
+.icono{
+  font-size: 24px;
+  margin: 0%;
+}
+
+/* MiComponente.module.css */
+.menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px; /* Espaciado entre elementos del menú */
+  }

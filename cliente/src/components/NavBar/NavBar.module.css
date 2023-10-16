@@ -1,0 +1,100 @@
+/* Estilos CSS para el NavBar */
+
+
+.navBar {
+  width: 290px;
+  height: 100%;
+  background-color: #252424;
+  color: #e2e0e0;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column; 
+  position: fixed;
+  border:0%;
+  overflow-y: scroll; 
+
+  
+  
+  
+}
+
+.opcionInicio{
+  color: rgb(255, 255, 255);
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menuItem {
+  margin-bottom: 10px;
+  transition: background-color 0.3s; /* Agregar una transición para cambiar el color de fondo al hacer hover */
+}
+
+.menuItem:hover {
+  background-color: #2356ee; /* Cambiar el color de fondo al hacer hover */
+  text-decoration: none;
+}
+
+.menuItemTitle {
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Centrar elementos verticalmente */
+  font-size: 18px;
+}
+
+.menuItemTitleSalir {
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Centrar elementos verticalmente */
+  font-size: 20px;
+  color: red;
+}
+
+.menuItemTitle i {
+  margin-right: 10px; /* Espacio entre el icono y el texto */
+  font-size: 16px;
+}
+
+.subMenu {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+  display: none; /* Ocultar el submenú por defecto */
+}
+
+.menuItem:hover .subMenu {
+  display: block; /* Mostrar el submenú al hacer hover en el elemento principal */
+}
+
+.subMenuItem {
+  cursor: pointer;
+  margin-top: 5px; /* Espacio entre elementos del submenú */
+  text-align: left; /* Alinear el texto a la izquierda */
+  color: wheat;
+}
+
+
+
+.icono{
+  font-size: 24px;
+  margin: 2%;
+}
+
+.hr {
+  border: none; /* Quitamos el borde para que sea solo el color de fondo */
+  height: 2px; /* Altura de la línea horizontal */
+  background-color: #b0afb4; /* Color de fondo rojo (#FF0000) */
+  margin: 20px 0; /* Espacio vertical antes y después de la línea */
+}
+
+.link1 {
+  text-decoration: none;
+}

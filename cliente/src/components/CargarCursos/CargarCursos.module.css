@@ -1,0 +1,118 @@
+/* Estilos generales para la zona de carga */
+.dropzone {
+    border: 2px dashed #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out;
+    background-color: #f5f5f5;
+  }
+
+  .container{
+    margin-top: 10%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 19% 81%;
+    
+    
+  }
+
+  
+  /* Estilos cuando se arrastra un archivo sobre la zona de carga */
+  .dropzone.active {
+    border-color: #2c3e50;
+    background-color: #ecf0f1;
+  }
+  
+  /* Estilos para el texto dentro de la zona de carga */
+  .dropzone p {
+    font-size: 18px;
+    color: #34495e;
+  }
+  
+  /* Estilos para la lista de archivos cargados */
+  .ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #2ecc71;
+  }
+  
+  /* Estilos adicionales para la lista de archivos cargados */
+  .li::before {
+    content: '✔️';
+    margin-right: 5px;
+  }
+  
+  /* Estilos para los iconos de arrastrar y soltar */
+  .dropzone svg {
+    width: 48px;
+    height: 48px;
+    fill: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* para la tabla */
+  
+  .tablacontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .tabla {
+   
+    text-align: center;
+    border: 2px solid black; /* Agrega un borde sólido de 1px de ancho en color negro */
+    padding: 8px; /* Agrega relleno para separar el contenido del borde */
+    text-align: left; /* Alinea el texto del encabezado a la izquierda */
+  }
+  .encabezado {
+    border-left: 1px solid black; /* Borde izquierdo sólido de 1px de ancho en color negro */
+    border-right: 1px solid black; /* Borde derecho sólido de 1px de ancho en color negro */
+    border-top: 1px solid black; /* Borde derecho sólido de 1px de ancho en color negro */
+    padding: 8px; /* Agrega relleno para separar el contenido del borde */
+    text-align: center; /* Alinea el texto del encabezado a la izquierda */
+  
+  }
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff; /* Cambia el color de la etiqueta a blanco */
+    font-weight: bold; /* Añade negrita a la etiqueta */
+  }
+  
+  .input {
+    width: 100%; /* Ancho del input al 100% para ocupar el contenedor */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Espacio inferior para separar los inputs */
+  }
+  
+  .submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #0a0909;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Reduce el espacio superior para evitar exceso de separación */
+    display: inline-block; /* Hace que el botón sea un elemento en línea */
+  }
+  
+  .submit:hover {
+    background-color: #f17070;
+  }
+  

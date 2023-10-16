@@ -1,0 +1,85 @@
+
+.container{
+    max-width: 1000px;
+    margin: 30px auto; /* Centra el contenido horizontalmente y agrega espacio superior e inferior */
+    padding: 10px;
+    border: 5px solid #fcfdfe;
+    border-radius: 10px;
+    
+}
+
+  .tablacontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+  
+  .tabla {
+    border: 2px solid black; /* Agrega un borde sólido de 1px de ancho en color negro */
+    padding: 8px; /* Agrega relleno para separar el contenido del borde */
+    text-align: center; /* Alinea el texto del encabezado a la izquierda */
+    
+  }
+
+  .primerencabezado {
+    width: 800px; /* Establece el ancho deseado */
+    border: 2px solid black; /* Agrega un borde sólido de 1px de ancho en color negro */
+    padding: 8px; /* Agrega relleno para separar el contenido del borde */
+    text-align: center; /* Alinea el texto del encabezado a la izquierda */
+}
+  .filas {
+    border-left: 2px solid black; /* Borde izquierdo sólido de 1px de ancho en color negro */
+    border-right: 2px solid black; /* Borde derecho sólido de 1px de ancho en color negro */
+    padding: 8px; /* Agrega relleno para separar el contenido del borde */
+    text-align: left; /* Alinea el texto del encabezado a la izquierda */
+  }
+  .filas2 {
+    border-left: 2px solid black; /* Borde izquierdo sólido de 1px de ancho en color negro */
+    border-right: 2px solid black; /* Borde derecho sólido de 1px de ancho en color negro */
+    padding: 8px; /* Agrega relleno para separar el contenido del borde */
+    text-align: center; /* Alinea el texto del encabezado a la izquierda */
+    
+  }
+
+  .filasEditarEliminar {
+    
+    color: #090909;
+  }
+
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff; /* Cambia el color de la etiqueta a blanco */
+    font-weight: bold; /* Añade negrita a la etiqueta */
+  }
+  
+  .input {
+    width: 100%; /* Ancho del input al 100% para ocupar el contenedor */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Espacio inferior para separar los inputs */
+  }
+  
+  .submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #0a0909;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Reduce el espacio superior para evitar exceso de separación */
+    display: inline-block; /* Hace que el botón sea un elemento en línea */
+  }
+
+  .submit:hover {
+    background-color: #f17070;
+  }
+  
+  /* Estilos para la impresión */
+
+
+
+

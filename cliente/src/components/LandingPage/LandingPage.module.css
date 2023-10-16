@@ -1,0 +1,50 @@
+/* Importar la fuente Monoton desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+/* Resto de tus estilos */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #003366, #007bff);
+  font-family: 'Monoton', cursive;
+  
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: center;
+  word-spacing: 0.2em; /* Ajusta este valor según tu preferencia */
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-bottom: 2rem;
+  text-align: center;
+  word-spacing: 0.2em; /* Ajusta este valor según tu preferencia */
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  word-spacing: 0.2em; /* Ajusta este valor según tu preferencia */
+}
+
+.btn:hover {
+  background-color: #ddd;
+}

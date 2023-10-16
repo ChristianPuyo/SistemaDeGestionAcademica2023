@@ -1,0 +1,52 @@
+
+.container {
+    max-width: 800px;
+    margin: 30px auto; /* Centra el contenido horizontalmente y agrega espacio superior e inferior */
+    padding: 20px;
+    border: 5px solid #58b6f1;
+    border-radius: 10px;
+     
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff; /* Cambia el color de la etiqueta a blanco */
+    font-weight: bold; /* Añade negrita a la etiqueta */
+  }
+  
+  .input {
+    width: 100%; /* Ancho del input al 100% para ocupar el contenedor */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Espacio inferior para separar los inputs */
+  }
+
+  .inputSelect {
+    width: 100%; /* Ancho del input al 100% para ocupar el contenedor */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Espacio inferior para separar los inputs */
+  }
+  
+  .submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #0a0909;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Reduce el espacio superior para evitar exceso de separación */
+    display: inline-block; /* Hace que el botón sea un elemento en línea */
+  }
+
+  .submit:hover {
+    background-color: #f17070;
+  }
+  
+  
+  
